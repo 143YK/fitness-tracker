@@ -1,0 +1,25 @@
+<section class="new-traing" fxLayout="row" fxLayoutAlign="center">
+    <mat-card fxFlex="400px" fxFlex.xs="100%">
+        <mat-card-title fxLayoutAlign="center">Time to start Workout!</mat-card-title>
+        <mat-card-content fxLayoutAlign="center">
+            <mat-form-field appearance="fill">
+                <mat-label>Select a workout type</mat-label>
+                <mat-select>
+                    <mat-option value="pushup">
+                        Push-up
+                    </mat-option>
+                    <mat-option value="pullup">
+                        Pull up
+                    </mat-option>
+                    <mat-option value="crunches">
+                        Crunches
+                    </mat-option>
+                </mat-select>
+            </mat-form-field>
+        </mat-card-content>
+        <mat-card-actions fxLayoutAlign="center">
+            <button type="submit" (click)="addTraing()" mat-button>Start</button>
+        </mat-card-actions>
+
+    </mat-card>
+</section>

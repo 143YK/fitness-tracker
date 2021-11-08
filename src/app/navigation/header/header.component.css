@@ -1,0 +1,25 @@
+
+  a {
+    text-decoration: none;
+    color: white;
+  }
+  
+  a:hover,
+  a:active {
+    color: lightgray;
+  }
+  
+  .navigation-items {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .nav-caption{
+    text-align: center;
+    margin-left: 20%;
+  }
+
+  mat-list-item {
+    margin: auto,10%;
+  }
